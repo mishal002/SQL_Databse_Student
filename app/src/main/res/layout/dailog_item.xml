@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/name_update_edt"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Name" />
+
+    <EditText
+        android:id="@+id/mobile_update_edt"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/name_update_edt"
+        android:layout_height="wrap_content"
+        android:hint="Update Mobole No" />
+
+    <EditText
+        android:id="@+id/sdt_update_edt"
+        android:layout_width="match_parent"
+        android:layout_below="@id/mobile_update_edt"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Update Std No" />
+
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdt_update_edt"
+        android:text="update"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

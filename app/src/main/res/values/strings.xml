@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQL Databse</string>
+    <string name="name">name</string>
+    <string name="mobile">Mobile</string>
+    <string name="std">STD</string>
+    <string name="_1">1</string>
+</resources>
